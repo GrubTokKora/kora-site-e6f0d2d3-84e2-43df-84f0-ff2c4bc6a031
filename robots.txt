@@ -1,5 +1,3 @@
-```
 User-agent: *
 Allow: /
-Sitemap: https://biryanigrill.com/sitemap.xml
-```
+Sitemap: https://staging.kora-e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031.pages.dev/sitemap.xml
