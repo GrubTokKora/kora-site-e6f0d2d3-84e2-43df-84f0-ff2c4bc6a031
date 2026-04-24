@@ -1,314 +1,782 @@
-```html
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biryani Grill – Authentic Indian Cuisine in Stone Ridge, VA</title>
-    <meta name="description" content="Welcome to Biryani Grill! We serve authentic halal Indian biryani, tandoori dishes, and curries in Stone Ridge, VA. Dine-in, order online, or cater with us.">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="Biryani Grill – Authentic Indian Cuisine in Stone Ridge, VA">
-    <meta property="og:description" content="Welcome to Biryani Grill! We serve authentic halal Indian biryani, tandoori dishes, and curries in Stone Ridge, VA. Dine-in, order online, or cater with us.">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050733_3svif9.webp">
-    <meta property="og:url" content="https://biryanigrill.com/">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biryani Grill — Authentic Indian Restaurant | Aldie, Ashburn &amp; Chantilly, VA</title>
+  <meta name="description"
+    content="Experience the rich heritage of traditional Indian cuisine at Biryani Grill. Award-winning biryanis, tandoor specialties, and halal Indian dining in Aldie, Ashburn &amp; Chantilly, Virginia. Dine-in, order online, or cater with us." />
 
-    <!-- Favicon -->
-    <link rel="icon" href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050731_bhnup9.webp">
-    <link rel="shortcut icon" href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050731_bhnup9.webp">
-    <link rel="apple-touch-icon" href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050731_bhnup9.webp">
+  <!-- Open Graph -->
+  <meta property="og:title"
+    content="Biryani Grill — Authentic Indian Restaurant | Aldie, Ashburn &amp; Chantilly, VA" />
+  <meta property="og:description"
+    content="Experience the rich heritage of traditional Indian cuisine at Biryani Grill. Award-winning biryanis, tandoor specialties, and halal Indian dining in Aldie, Ashburn &amp; Chantilly, Virginia. Dine-in, order online, or cater with us." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image"
+    content="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050733_3svif9.webp" />
+  <meta property="og:url" content="https://biryanigrill.com/" />
+  <meta property="og:site_name" content="Biryani Grill" />
+  <meta property="og:locale" content="en_US" />
 
-    <!-- Canonical -->
-    <link rel="canonical" href="https://biryanigrill.com/">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title"
+    content="Biryani Grill — Authentic Indian Restaurant | Aldie, Ashburn &amp; Chantilly, VA" />
+  <meta name="twitter:description"
+    content="Award-winning biryanis, tandoor specialties, and halal Indian dining in Aldie, Ashburn &amp; Chantilly, Virginia." />
+  <meta name="twitter:image"
+    content="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050733_3svif9.webp" />
 
-    <!-- Hero image preload -->
-    <link rel="preload" as="image" href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050733_3svif9.webp">
+  <!-- Favicon (Kora media) -->
+  <link rel="icon" type="image/webp"
+    href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050731_bhnup9.webp" />
+  <link rel="shortcut icon"
+    href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050731_bhnup9.webp" />
+  <link rel="apple-touch-icon"
+    href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050731_bhnup9.webp" />
 
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Restaurant",
-      "name": "Biryani Grill",
-      "description": "Welcome to Biryani Grill, where tradition meets taste! We are passionate about bringing the rich, diverse flavors of India to your table. Every dish is crafted with authentic spices, fresh ingredients, and a touch of love. We believe food is an experience, blending time-honored recipes with modern techniques. Our chefs create comforting and innovative dishes, from smoky tandoori to bold curries and delicate desserts. Our mission is to create a warm, welcoming space for friends and family to gather and enjoy the magic of Indian cuisine. Savor the flavors of tradition, hospitality, and culinary excellence.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "42010 Village Center Plaza #170",
-        "addressLocality": "Stone Ridge",
-        "addressRegion": "VA",
-        "postalCode": "20105",
-        "addressCountry": "US"
+  <link rel="canonical" href="https://biryanigrill.com/" />
+
+  <link rel="preload" as="image"
+    href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050733_3svif9.webp" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Biryani Grill",
+        "url": "https://biryanigrill.com/"
       },
-      "telephone": "+1-703-570-4766",
-      "openingHours": [
-        "Mo-Th 11:30-14:30",
-        "Mo-Th 17:00-00:00",
-        "Fr-Su 11:30-00:00"
-      ],
-      "image": "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050731_bhnup9.webp",
-      "servesCuisine": "Indian",
-      "priceRange": "$$"
+      {
+        "@type": "Restaurant",
+        "name": "Biryani Grill — Aldie",
+        "url": "https://biryanigrill.com/aldie.html",
+        "description": "Welcome to Biryani Grill, where tradition meets taste! We are passionate about bringing the rich, diverse flavors of India to your table. Every dish is crafted with authentic spices, fresh ingredients, and a touch of love.",
+        "image": "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777052413_bgb3vu.jpg",
+        "telephone": "+1-703-570-4766",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "42010 Village Center Plaza #170",
+          "addressLocality": "Stone Ridge",
+          "addressRegion": "VA",
+          "postalCode": "20105",
+          "addressCountry": "US"
+        },
+        "openingHours": ["Mo-Th 11:30-14:30", "Mo-Th 17:00-00:00", "Fr-Su 11:30-00:00"],
+        "servesCuisine": "Indian",
+        "priceRange": "$$"
+      },
+      {
+        "@type": "Restaurant",
+        "name": "Biryani Grill — Ashburn",
+        "url": "https://biryanigrill.com/ashburn.html",
+        "description": "Welcome to Biryani Grill, where tradition meets taste! We are passionate about bringing the rich, diverse flavors of India to your table. Every dish is crafted with authentic spices, fresh ingredients, and a touch of love.",
+        "image": "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777052436_uxwilk.jpg",
+        "telephone": "+1-703-480-0788",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "43530 Yukon Dr",
+          "addressLocality": "Ashburn",
+          "addressRegion": "VA",
+          "postalCode": "20147",
+          "addressCountry": "US"
+        },
+        "openingHours": ["Mo-Th 11:30-14:30", "Mo-Th 17:00-00:00", "Fr-Su 11:30-00:00"],
+        "servesCuisine": "Indian",
+        "priceRange": "$$"
+      },
+      {
+        "@type": "Restaurant",
+        "name": "Biryani Grill — Chantilly",
+        "url": "https://biryanigrill.com/chantilly.html",
+        "description": "Welcome to Biryani Grill, where tradition meets taste! We are passionate about bringing the rich, diverse flavors of India to your table. Every dish is crafted with authentic spices, fresh ingredients, and a touch of love.",
+        "image": "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777052460_87s5ou.jpg",
+        "telephone": "+1-703-637-8999",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "13635 US-50",
+          "addressLocality": "Chantilly",
+          "addressRegion": "VA",
+          "postalCode": "20151",
+          "addressCountry": "US"
+        },
+        "openingHours": ["Mo-Th 11:30-15:00", "Mo-Th 17:00-23:00", "Fr-Sa 11:30-23:00", "Su 11:30-23:00"],
+        "servesCuisine": "Indian",
+        "priceRange": "$$"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      corePlugins: { preflight: false },
+      theme: { extend: {} }
     }
-    </script>
-
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style type="text/tailwindcss">
-        @layer base {
-            h1, h2, h3, h4, h5, h6 {
-                @apply font-serif;
-            }
-        }
-        @layer utilities {
-            .text-shadow {
-                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-            }
-        }
-    </style>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#000000',
-                        secondary: '#ffffff',
-                        accent: '#FFC107',
-                    },
-                    fontFamily: {
-                        sans: ['"Lato"', 'sans-serif'],
-                        serif: ['"Playfair Display"', 'serif'],
-                    }
-                }
-            }
-        }
-    </script>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  </script>
 </head>
-<body class="bg-primary text-secondary font-sans">
 
-    <!-- Header -->
-    <header id="header" class="bg-primary/80 backdrop-blur-md fixed top-0 left-0 right-0 z-50 transition-all duration-300">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-20">
-                <a href="index.html" class="flex-shrink-0">
-                    <img class="h-12 w-auto" src="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050731_bhnup9.webp" alt="Biryani Grill Logo">
-                </a>
-                <nav class="hidden md:flex items-center space-x-8">
-                    <a href="#about" class="text-secondary hover:text-accent transition-colors">About</a>
-                    <a href="#menu" class="text-secondary hover:text-accent transition-colors">Menu</a>
-                    <a href="#gallery" class="text-secondary hover:text-accent transition-colors">Gallery</a>
-                    <a href="catering.html" class="text-secondary hover:text-accent transition-colors">Catering</a>
-                    <a href="#contact" class="text-secondary hover:text-accent transition-colors">Contact</a>
-                </nav>
-                <a href="tel:+17035704766" class="hidden md:inline-block bg-accent text-primary font-bold py-2 px-6 rounded-full hover:bg-yellow-300 transition-colors">Order Online</a>
-                <div class="md:hidden">
-                    <button id="mobile-menu-button" class="text-secondary focus:outline-none">
-                        <i data-lucide="menu" class="w-6 h-6"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden">
-            <nav class="px-2 pt-2 pb-4 space-y-1 sm:px-3">
-                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-secondary hover:text-accent hover:bg-gray-800">About</a>
-                <a href="#menu" class="block px-3 py-2 rounded-md text-base font-medium text-secondary hover:text-accent hover:bg-gray-800">Menu</a>
-                <a href="#gallery" class="block px-3 py-2 rounded-md text-base font-medium text-secondary hover:text-accent hover:bg-gray-800">Gallery</a>
-                <a href="catering.html" class="block px-3 py-2 rounded-md text-base font-medium text-secondary hover:text-accent hover:bg-gray-800">Catering</a>
-                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-secondary hover:text-accent hover:bg-gray-800">Contact</a>
-                <a href="tel:+17035704766" class="block w-full text-left mt-2 px-3 py-2 rounded-md text-base font-medium bg-accent text-primary hover:bg-yellow-300">Order Online</a>
-            </nav>
-        </div>
-    </header>
+<body>
+  <script src="js/components.js"></script>
 
+  <div id="page-wrapper">
     <main>
-        <!-- Hero Section -->
-        <section class="relative h-screen min-h-[600px] flex items-center justify-center text-center text-secondary">
-            <div class="absolute inset-0 bg-primary/60 z-10"></div>
-            <img src="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050733_3svif9.webp" 
-                 alt="A delicious bowl of authentic goat biryani" 
-                 class="absolute inset-0 w-full h-full object-cover"
-                 loading="eager" fetchpriority="high" decoding="async" width="1920" height="1080">
-            <div class="relative z-20 p-4">
-                <h1 class="text-5xl md:text-7xl font-bold font-serif text-shadow mb-4">Authentic Biryani & More</h1>
-                <p class="max-w-2xl mx-auto text-lg md:text-xl text-shadow mb-8">Experience the rich heritage of traditional Indian cuisine. From aromatic biryanis to sizzling tandoor specialties, every dish tells a story of authentic spices and time-honored recipes.</p>
-                <div class="space-x-4">
-                    <a href="#menu" class="bg-accent text-primary font-bold py-3 px-8 rounded-full hover:bg-yellow-300 transition-colors text-lg">View Menu</a>
-                    <a href="tel:+17035704766" class="bg-transparent border-2 border-accent text-accent font-bold py-3 px-8 rounded-full hover:bg-accent hover:text-primary transition-colors text-lg">Order Now</a>
-                </div>
-            </div>
-        </section>
 
-        <!-- About Section -->
-        <section id="about" class="py-20 sm:py-32 bg-gray-900">
-            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="max-w-3xl mx-auto text-center">
-                    <h2 class="text-4xl font-bold text-accent mb-6">Where Tradition Meets Taste</h2>
-                    <p class="text-lg text-gray-300 leading-relaxed">
-                        Welcome to Biryani Grill! We are passionate about bringing the rich, diverse flavors of India to your table. Every dish is crafted with authentic spices, fresh ingredients, and a touch of love. We believe food is an experience, blending time-honored recipes with modern techniques. Our chefs create comforting and innovative dishes, from smoky tandoori to bold curries and delicate desserts. Our mission is to create a warm, welcoming space for friends and family to gather and enjoy the magic of Indian cuisine. Savor the flavors of tradition, hospitality, and culinary excellence.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Menu Section -->
-        <section id="menu" class="py-20 sm:py-32">
-            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
-                    <h2 class="text-4xl font-bold text-accent mb-4">Our Menu</h2>
-                    <p class="text-lg text-gray-300 max-w-2xl mx-auto">A culinary journey through the heart of India, featuring our most beloved dishes.</p>
-                </div>
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-                    <div>
-                        <h3 class="text-2xl font-bold text-accent border-b-2 border-accent/50 pb-2 mb-6">Signature Biryanis</h3>
-                        <div class="space-y-6">
-                            <div>
-                                <h4 class="text-xl font-bold">Mutton Biryani (Goat)</h4>
-                                <p class="text-gray-400">Goat pieces marinated with spices cooked with basmati rice on low heat</p>
-                            </div>
-                            <div>
-                                <h4 class="text-xl font-bold">Chicken Dum Biryani</h4>
-                                <p class="text-gray-400">Bone-in chicken marinated with spices cooked with basmati rice on low heat</p>
-                            </div>
-                            <div>
-                                <h4 class="text-xl font-bold">Paneer Biryani</h4>
-                                <p class="text-gray-400">Cottage cheese cubes (paneer) marinated with spices cooked with basmati rice on low heat</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold text-accent border-b-2 border-accent/50 pb-2 mb-6">Tandoor Specialties</h3>
-                        <div class="space-y-6">
-                            <div>
-                                <h4 class="text-xl font-bold">Paneer Tikka</h4>
-                                <p class="text-gray-400">Indian cottage cheese cubes grilled with onions and bell peppers</p>
-                            </div>
-                            <div>
-                                <h4 class="text-xl font-bold">Fish Tikka</h4>
-                                <p class="text-gray-400">Fish lightly marinated and grilled to your order</p>
-                            </div>
-                            <div>
-                                <h4 class="text-xl font-bold">Hariyali Chicken</h4>
-                                <p class="text-gray-400">Grilled Chicken marinated with green paste of fresh herbs like cilantro leaves, mint leaves and (hot) green chillies, yogurt and cashew paste</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold text-accent border-b-2 border-accent/50 pb-2 mb-6">Curries & Specialties</h3>
-                        <div class="space-y-6">
-                            <div>
-                                <h4 class="text-xl font-bold">Lababdar Paneer</h4>
-                                <p class="text-gray-400">Soft paneer in indulgent gravy of tomato, onion, chili & spices</p>
-                            </div>
-                            <div>
-                                <h4 class="text-xl font-bold">Chicken Tikka Masala</h4>
-                                <p class="text-gray-400">Boneless chicken tikka cooked in a creamy tomato curry</p>
-                            </div>
-                            <div>
-                                <h4 class="text-xl font-bold">Goat Curry</h4>
-                                <p class="text-gray-400">Chunky pieces of goat simmered in aromatic blend of spices, onions until thick and creamy</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Gallery Section -->
-        <section id="gallery" class="py-20 sm:py-32 bg-gray-900">
-            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
-                    <h2 class="text-4xl font-bold text-accent mb-4">A Feast for the Eyes</h2>
-                    <p class="text-lg text-gray-300">Glimpses of our culinary creations.</p>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <img src="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050734_c4uli3.webp" alt="A delicious Indian dish from Biryani Grill" class="w-full h-full object-cover rounded-lg shadow-lg" loading="lazy">
-                    <img src="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777050736_p3c1go.webp" alt="Another delicious Indian dish from Biryani Grill" class="w-full h-full object-cover rounded-lg shadow-lg" loading="lazy">
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact & Hours Section -->
-        <section id="contact" class="py-20 sm:py-32">
-            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
-                    <h2 class="text-4xl font-bold text-accent mb-4">Visit Us</h2>
-                    <p class="text-lg text-gray-300">We look forward to serving you.</p>
-                </div>
-                <div class="grid md:grid-cols-2 gap-12 items-start">
-                    <div class="bg-gray-900 p-8 rounded-lg">
-                        <h3 class="text-2xl font-bold text-accent mb-6">Contact & Location</h3>
-                        <div class="space-y-4 text-lg">
-                            <p class="flex items-start">
-                                <i data-lucide="map-pin" class="w-6 h-6 mr-3 mt-1 text-accent flex-shrink-0"></i>
-                                <span>42010 Village Center Plaza #170<br>Stone Ridge, VA 20105</span>
-                            </p>
-                            <p class="flex items-center">
-                                <i data-lucide="phone" class="w-6 h-6 mr-3 text-accent"></i>
-                                <a href="tel:+17035704766" class="hover:text-accent">(703) 570-4766</a>
-                            </p>
-                        </div>
-                         <a href="https://www.google.com/maps/search/?api=1&query=42010%20Village%20Center%20Plaza%20%23170%2C%20Stone%20Ridge%2C%20VA%2020105" target="_blank" rel="noopener noreferrer" class="mt-6 inline-block bg-accent text-primary font-bold py-3 px-8 rounded-full hover:bg-yellow-300 transition-colors">Get Directions</a>
-                    </div>
-                    <div class="bg-gray-900 p-8 rounded-lg">
-                        <h3 class="text-2xl font-bold text-accent mb-6">Opening Hours</h3>
-                        <div class="space-y-2 text-lg">
-                            <div class="flex justify-between"><span class="text-gray-300">Monday - Thursday</span><span>11:30 AM - 2:30 PM, 5:00 PM - 12:00 AM</span></div>
-                            <div class="flex justify-between"><span class="text-gray-300">Friday - Sunday</span><span>11:30 AM - 12:00 AM</span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 border-t border-gray-800">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div class="flex flex-col sm:flex-row justify-between items-center">
-                <p class="text-gray-400">&copy; 2024 Biryani Grill. All Rights Reserved.</p>
-                <div class="flex space-x-4 mt-4 sm:mt-0">
-                    <a href="https://www.instagram.com/biryanigrill_va/?igsh=MXY0OG0zMWxxcHZ1aA%3D%3D" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-accent"><i data-lucide="instagram" class="w-6 h-6"></i></a>
-                    <a href="https://www.facebook.com/biryanigrillva" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-accent"><i data-lucide="facebook" class="w-6 h-6"></i></a>
-                </div>
-            </div>
+      <!-- ======================== HERO ======================== -->
+      <section class="hero">
+        <div class="hero-bg-fallback"></div>
+        <div class="hero-bg"
+          style="background-image:url('https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777052531_xqxqvf.jpg');">
         </div>
-    </footer>
+        <div class="hero-overlay"></div>
+        <div class="container relative z-[2]">
+          <div class="hero-content">
+            <div class="hero-rating">
+              <span class="stars">★★★★★</span>
+              <span>4.9 Rating &nbsp;·&nbsp; 1K+ Reviews</span>
+            </div>
+            <h1 class="hero-title">
+              Authentic
+              <em>Biryani &amp; More</em>
+            </h1>
+            <p class="hero-desc">
+              Experience the rich heritage of traditional Indian cuisine. From aromatic biryanis to sizzling tandoor
+              specialties, every dish tells a story of authentic spices and time-honoured recipes.
+            </p>
+            <div class="hero-ctas">
+              <a href="#location-modal" data-open-locations class="btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                </svg>
+                View Our Menu
+              </a>
+            </div>
+            <div class="hero-badges">
+              <div class="hero-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="9 11 12 14 22 4" />
+                  <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
+                </svg>
+                Award Winning
+              </div>
+              <div class="hero-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+                Fresh Daily
+              </div>
+              <div class="hero-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+                100% Halal
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-scroll">
+          <div class="scroll-line"></div>
+          <span>Scroll</span>
+        </div>
+      </section>
 
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-        lucide.createIcons();
+      <!-- ======================== MARQUEE ======================== -->
+      <div class="marquee-strip" aria-hidden="true">
+        <div class="marquee-track">
+          <div class="marquee-item"><span>★ Award Winning</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>100% Halal Certified</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Fresh Daily</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Authentic Recipes Since 1998</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Catering Available</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>3 Locations in Virginia</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>★ Award Winning</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>100% Halal Certified</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Fresh Daily</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Authentic Recipes Since 1998</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Catering Available</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>3 Locations in Virginia</span><span class="marquee-dot"></span></div>
+        </div>
+      </div>
 
-        // Mobile menu toggle
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
+      <!-- ======================== ABOUT / STORY ======================== -->
+      <section class="section bg-[#131417] overflow-hidden relative" id="about">
+        <span class="spice-ornament right-[-4rem] top-[-2rem] rotate-[20deg]">✦</span>
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-text reveal-right">
+              <div class="section-tag">Our Heritage</div>
+              <h2 class="section-title">
+                A Legacy of <em>Authentic Flavors</em>
+              </h2>
+              <div class="divider-gold"></div>
+              <p>Welcome to Biryani Grill, where tradition meets taste! We are passionate about bringing the rich,
+                diverse flavors of India to your table. Every dish we serve is crafted with authentic spices, fresh
+                ingredients, and a touch of love just like home.</p>
+              <p>At Biryani Grill, we believe that food is more than just a meal; it is an experience. Our chefs blend
+                time-honored recipes with modern techniques to create dishes that are both comforting and innovative.
+                Whether you are craving the smoky aroma of tandoor, the bold spices of a curry, or the delicate
+                sweetness of a dessert, we have something to delight every palate.</p>
+              <p>Our mission is simple: to create a warm, welcoming space where friends and family can gather, share
+                stories, and enjoy the magic of Indian cuisine. From the first bite to the last, we want every visit to
+                be a journey through the vibrant streets and kitchens of India.</p>
+              <p>Come join us and savor the flavors of tradition, hospitality, and culinary excellence.</p>
+              <div class="about-stats">
+                <div class="about-stat-item">
+                  <div class="about-stat-value">20+</div>
+                  <div class="about-stat-label">Years</div>
+                </div>
+                <div class="about-stat-item">
+                  <div class="about-stat-value">10K+</div>
+                  <div class="about-stat-label">Guests</div>
+                </div>
+                <div class="about-stat-item">
+                  <div class="about-stat-value">100%<br>HALAL</div>
+                  <div class="about-stat-label">Certified</div>
+                </div>
+              </div>
+            </div>
+            <div class="about-visual reveal-left">
+              <img
+                src="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031/de8c94d8-887e-4625-825f-ec262dbc28df/1777052497_z247et.jpg"
+                alt="Traditional Tandoor Cooking" class="about-img-main" loading="lazy" />
+              <div class="about-feature-card">
+                <div class="about-feature-title">Traditional Tandoor Cooking</div>
+                <p>Our clay ovens reach temperatures of 900°F, creating the perfect char and smoky flavor that defines
+                  authentic Indian cuisine.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        // Close mobile menu on link click
-        document.querySelectorAll('#mobile-menu a').forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
-            });
-        });
-        
-        // Header shadow on scroll
-        const header = document.getElementById('header');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 10) {
-                header.classList.add('shadow-lg');
-            } else {
-                header.classList.remove('shadow-lg');
-            }
-        });
-    </script>
+      <!-- ======================== FEATURED MENU ======================== -->
+      <section class="section" id="menu-preview">
+        <div class="container">
+          <div class="reveal text-center mb-12">
+            <div class="section-tag justify-center">Signature Dishes</div>
+            <h2 class="section-title">Our Signature <em>Menu</em></h2>
+            <p class="text-[#C7C7C7] max-w-[560px] mt-4 mx-auto text-[0.95rem] leading-[1.7]">
+              Carefully crafted dishes using traditional recipes and the finest spices imported directly from India.
+            </p>
+          </div>
+
+          <div class="signature-menu-group reveal">
+            <h3 class="signature-menu-heading">Signature Biryanis</h3>
+            <div class="signature-menu-grid">
+              <article class="signature-menu-card">
+                <div class="signature-menu-top">
+                  <h4 class="signature-menu-title">Mutton Biryani (Goat)</h4>
+                  <div class="signature-badges">
+                    <span class="signature-badge popular">Popular</span>
+                    <span class="signature-badge spicy">Spicy</span>
+                  </div>
+                </div>
+                <p class="signature-menu-desc">Goat pieces marinated with spices cooked with basmati rice on low heat.
+                </p>
+              </article>
+              <article class="signature-menu-card">
+                <div class="signature-menu-top">
+                  <h4 class="signature-menu-title">Chicken Dum Biryani</h4>
+                  <div class="signature-badges">
+                    <span class="signature-badge popular">Popular</span>
+                    <span class="signature-badge spicy">Spicy</span>
+                  </div>
+                </div>
+                <p class="signature-menu-desc">Bone-in chicken marinated with spices cooked with basmati rice on low
+                  heat.</p>
+              </article>
+              <article class="signature-menu-card">
+                <div class="signature-menu-top">
+                  <h4 class="signature-menu-title">Paneer Biryani</h4>
+                  <div class="signature-badges">
+                    <span class="signature-badge popular">Popular</span>
+                    <span class="signature-badge veg">Veg</span>
+                  </div>
+                </div>
+                <p class="signature-menu-desc">Cottage cheese cubes marinated with spices cooked with basmati rice on
+                  low heat.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="signature-menu-group reveal">
+            <h3 class="signature-menu-heading">Tandoor Specialties</h3>
+            <div class="signature-menu-grid">
+              <article class="signature-menu-card">
+                <div class="signature-menu-top">
+                  <h4 class="signature-menu-title">Paneer Tikka</h4>
+                  <div class="signature-badges">
+                    <span class="signature-badge popular">Popular</span>
+                    <span class="signature-badge veg">Veg</span>
+                  </div>
+                </div>
+                <p class="signature-menu-desc">Indian cottage cheese cubes grilled with onions and bell peppers.</p>
+              </article>
+              <article class="signature-menu-card">
+                <div class="signature-menu-top">
+                  <h4 class="signature-menu-title">Fish Tikka</h4>
+                  <div class="signature-badges">
+                    <span class="signature-badge popular">Popular</span>
+                  </div>
+                </div>
+                <p class="signature-menu-desc">Fish lightly marinated and grilled to your order.</p>
+              </article>
+              <article class="signature-menu-card">
+                <div class="signature-menu-top">
+                  <h4 class="signature-menu-title">Hariyali Chicken</h4>
+                  <div class="signature-badges">
+                    <span class="signature-badge popular">Popular</span>
+                  </div>
+                </div>
+                <p class="signature-menu-desc">Grilled chicken marinated with green paste of fresh herbs like cilantro
+                  leaves, mint leaves and hot green chillies, yogurt and cashew paste.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="signature-menu-group reveal">
+            <h3 class="signature-menu-heading">Curries &amp; Specialties</h3>
+            <div class="signature-menu-grid">
+              <article class="signature-menu-card">
+                <div class="signature-menu-top">
+                  <h4 class="signature-menu-title">Lababdar Paneer</h4>
+                  <div class="signature-badges">
+                    <span class="signature-badge veg">Veg</span>
+                  </div>
+                </div>
+                <p class="signature-menu-desc">Soft paneer in indulgent gravy of tomato, onion, chili, and spices.</p>
+              </article>
+              <article class="signature-menu-card">
+                <div class="signature-menu-top">
+                  <h4 class="signature-menu-title">Chicken Tikka Masala</h4>
+                  <div class="signature-badges">
+                    <span class="signature-badge popular">Popular</span>
+                  </div>
+                </div>
+                <p class="signature-menu-desc">Boneless chicken tikka cooked in a creamy tomato curry.</p>
+              </article>
+              <article class="signature-menu-card">
+                <div class="signature-menu-top">
+                  <h4 class="signature-menu-title">Goat Curry</h4>
+                  <div class="signature-badges">
+                    <span class="signature-badge popular">Popular</span>
+                  </div>
+                </div>
+                <p class="signature-menu-desc">Chunky pieces of goat simmered in aromatic blend of spices and onions
+                  until thick and creamy.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================== LOCATIONS ======================== -->
+      <section class="section bg-[#131417]" id="locations">
+        <div class="container-wide">
+          <div class="reveal text-center mb-14">
+            <div class="section-tag justify-center">Find Us</div>
+            <h2 class="section-title">Visit <em>Biryani Grill</em></h2>
+            <p class="text-[#C7C7C7] max-w-[440px] mt-4 mx-auto text-[0.95rem] leading-[1.7]">
+              Come experience authentic Indian cuisine in our warm and welcoming atmospheres across Virginia.</p>
+          </div>
+          <div class="locations-grid">
+            <!-- Aldie -->
+            <div class="location-card reveal delay-1">
+              <div class="location-name">Aldie</div>
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <div class="location-detail-text"><a
+                    href="https://www.google.com/maps/search/?api=1&query=Aldie%20Biryani%20Grill" target="_blank"
+                    rel="noopener">42010 Village Center Plaza #170,<br>Stone Ridge, VA 20105</a></div>
+              </div>
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.63 19.79 19.79 0 011 1.18 2 2 0 012.96 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                </svg>
+                <div class="location-detail-text"><a href="tel:7035704766">(703) 570-4766</a></div>
+              </div>
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+                <div class="location-detail-text">
+                  <div class="hours-grid">
+                    <span class="day">Mon–Thu</span><span>11:30 AM – 2:30 PM, 5:00 PM – 12:00 AM</span>
+                    <span class="day">Fri–Sun</span><span>11:30 AM – 12:00 AM</span>
+                  </div>
+                </div>
+              </div>
+              <div class="location-btns">
+                <a href="aldie.html" class="btn-location-outline">View Location Details</a>
+                <a href="https://aldie.biryanigrill.com/" target="_blank" rel="noopener"
+                  class="btn-location-primary">Order Now</a>
+              </div>
+            </div>
+            <!-- Ashburn -->
+            <div class="location-card reveal delay-2">
+              <div class="location-name">Ashburn</div>
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <div class="location-detail-text"><a
+                    href="https://www.google.com/maps/search/?api=1&query=Ashburn%20Biryani%20Grill" target="_blank"
+                    rel="noopener">43530 Yukon Dr,<br>Ashburn, VA 20147</a></div>
+              </div>
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.63 19.79 19.79 0 011 1.18 2 2 0 012.96 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                </svg>
+                <div class="location-detail-text"><a href="tel:7034800788">(703) 480-0788</a></div>
+              </div>
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+                <div class="location-detail-text">
+                  <div class="hours-grid">
+                    <span class="day">Mon–Thu</span><span>11:30 AM – 2:30 PM, 5:00 PM – 12:00 AM</span>
+                    <span class="day">Fri–Sun</span><span>11:30 AM – 12:00 AM</span>
+                  </div>
+                </div>
+              </div>
+              <div class="location-btns">
+                <a href="ashburn.html" class="btn-location-outline">View Location Details</a>
+                <a href="https://ashburn.biryanigrill.com/" target="_blank" rel="noopener"
+                  class="btn-location-primary">Order Now</a>
+              </div>
+            </div>
+            <!-- Chantilly -->
+            <div class="location-card reveal delay-3">
+              <div class="location-name">Chantilly</div>
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <div class="location-detail-text"><a
+                    href="https://www.google.com/maps/search/?api=1&query=Chantilly%20Biryani%20Grill" target="_blank"
+                    rel="noopener">13635 US-50,<br>Chantilly, VA 20151</a></div>
+              </div>
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.63 19.79 19.79 0 011 1.18 2 2 0 012.96 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                </svg>
+                <div class="location-detail-text"><a href="tel:7036378999">(703) 637-8999</a></div>
+              </div>
+              <div class="location-detail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+                <div class="location-detail-text">
+                  <div class="hours-grid">
+                    <span class="day">Mon–Thu</span><span>11:30 AM – 3:00 PM, 5:00 PM – 11:00 PM</span>
+                    <span class="day">Fri–Sun</span><span>11:30 AM – 11:00 PM</span>
+                  </div>
+                </div>
+              </div>
+              <div class="location-btns">
+                <a href="chantilly.html" class="btn-location-outline">View Location Details</a>
+                <a href="https://cash.app/order/$chantillybiryanigril" target="_blank" rel="noopener"
+                  class="btn-location-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================== CATERING FORM ======================== -->
+      <section class="section bg-[#131417]" id="catering">
+        <div class="container">
+          <div class="reveal text-center mb-10">
+            <div class="section-tag justify-center">Catering Services</div>
+            <h2 class="section-title">Catering <em>Services</em></h2>
+            <p class="text-[#C7C7C7] max-w-[620px] mt-4 mx-auto text-[0.95rem] leading-[1.7]">
+              Let us make your special occasion memorable with authentic Indian cuisine.
+            </p>
+          </div>
+
+          <form data-demo
+            class="reveal max-w-[760px] mx-auto bg-[#1A1C20] border border-[rgba(245,195,59,0.25)] rounded-xl px-4 pt-5 pb-[1.1rem]">
+            <h3 class="font-display text-[2rem] text-center mb-[0.3rem] text-[#F5C33B]">
+              Request a Quote</h3>
+            <p class="text-center text-[#C7C7C7] text-[0.9rem] mb-4">Fill out the form
+              below and we'll get back to you within 24 hours.</p>
+
+            <div class="form-group">
+              <label class="form-label" for="catering-location">Location *</label>
+              <select id="catering-location" class="form-control" name="location" required>
+                <option value="">Select a location</option>
+                <option>Aldie</option>
+                <option>Ashburn</option>
+                <option>Chantilly</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="catering-name">Name *</label>
+                <input id="catering-name" class="form-control" type="text" name="name" placeholder="Your name"
+                  required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="catering-email">Email *</label>
+                <input id="catering-email" class="form-control" type="email" name="email"
+                  placeholder="your.email@example.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="catering-phone">Phone *</label>
+              <input id="catering-phone" class="form-control" type="tel" name="phone" placeholder="(555) 123-4567"
+                required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="catering-service-type">Type of Service *</label>
+              <select id="catering-service-type" class="form-control" name="serviceType" required>
+                <option value="">Select service type</option>
+                <option>Corporate</option>
+                <option>Private Event</option>
+                <option>Wedding</option>
+                <option>Pickup Trays</option>
+                <option>Full Service Catering</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="catering-occasion">Occasion *</label>
+              <select id="catering-occasion" class="form-control" name="occasion" required>
+                <option value="">Select occasion</option>
+                <option>Birthday</option>
+                <option>Anniversary</option>
+                <option>Baby Shower</option>
+                <option>Wedding</option>
+                <option>Corporate Event</option>
+                <option>Graduation</option>
+                <option>Holiday Party</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="catering-date">Event Date *</label>
+                <input id="catering-date" class="form-control" type="date" name="eventDate" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="catering-time">Event Time *</label>
+                <input id="catering-time" class="form-control" type="time" name="eventTime" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="catering-guests">Number of Guests *</label>
+              <input id="catering-guests" class="form-control" type="number" name="guests" min="10"
+                placeholder="Expected number of guests" required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="catering-notes">Special Requests</label>
+              <textarea id="catering-notes" class="form-control" name="notes"
+                placeholder="Menu preferences, dietary restrictions, setup details..."></textarea>
+            </div>
+
+            <div class="flex flex-col items-stretch gap-[0.7rem]">
+              <button type="submit" class="btn-primary justify-center w-full">Request Catering
+                Quote</button>
+              <p class="text-center text-[#C7C7C7] text-[0.86rem]">We'll send you a custom catering
+                quote within 24 hours</p>
+              <span class="form-success hidden text-[#F5C33B] text-[0.9rem] text-center">Thank you! Our team will
+                contact you shortly.</span>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- ======================== FRANCHISE FORM ======================== -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="reveal text-center mb-10">
+            <div class="section-tag justify-center">Franchise Opportunity</div>
+            <h2 class="section-title">Join the <em>Biryani Grill Family</em></h2>
+            <p class="text-[#C7C7C7] max-w-[740px] mt-4 mx-auto text-[0.95rem] leading-[1.75]">
+              At Biryani Grill, we don't just serve food-we serve an experience. Our restaurant has become a beloved
+              destination for authentic Indian cuisine, blending tradition with innovation to create unforgettable
+              flavors. Now, we're ready to take this experience beyond our doors and invite passionate entrepreneurs to
+              join us in expanding our brand.
+            </p>
+          </div>
+
+          <form data-demo
+            class="reveal max-w-[760px] mx-auto bg-[#1A1C20] border border-[rgba(245,195,59,0.25)] rounded-xl px-4 pt-5 pb-[1.1rem]">
+            <h3 class="font-display text-[2rem] text-center mb-[0.3rem] text-[#F5C33B]">
+              Franchise Inquiry</h3>
+            <p class="text-center text-[#C7C7C7] text-[0.9rem] mb-4">Start your
+              journey with us today</p>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="franchise-name">Full Name *</label>
+                <input id="franchise-name" class="form-control" type="text" name="fullName" placeholder="Your full name"
+                  required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="franchise-email">Email *</label>
+                <input id="franchise-email" class="form-control" type="email" name="email"
+                  placeholder="your.email@example.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="franchise-phone">Phone *</label>
+              <input id="franchise-phone" class="form-control" type="tel" name="phone" placeholder="(555) 123-4567"
+                required />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="franchise-city">City *</label>
+                <input id="franchise-city" class="form-control" type="text" name="city" placeholder="City" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="franchise-state">State *</label>
+                <select id="franchise-state" class="form-control" name="state" required>
+                  <option value="">Select a state</option>
+                  <option value="AL">Alabama</option>
+                  <option value="AK">Alaska</option>
+                  <option value="AZ">Arizona</option>
+                  <option value="AR">Arkansas</option>
+                  <option value="CA">California</option>
+                  <option value="CO">Colorado</option>
+                  <option value="CT">Connecticut</option>
+                  <option value="DE">Delaware</option>
+                  <option value="FL">Florida</option>
+                  <option value="GA">Georgia</option>
+                  <option value="HI">Hawaii</option>
+                  <option value="ID">Idaho</option>
+                  <option value="IL">Illinois</option>
+                  <option value="IN">Indiana</option>
+                  <option value="IA">Iowa</option>
+                  <option value="KS">Kansas</option>
+                  <option value="KY">Kentucky</option>
+                  <option value="LA">Louisiana</option>
+                  <option value="ME">Maine</option>
+                  <option value="MD">Maryland</option>
+                  <option value="MA">Massachusetts</option>
+                  <option value="MI">Michigan</option>
+                  <option value="MN">Minnesota</option>
+                  <option value="MS">Mississippi</option>
+                  <option value="MO">Missouri</option>
+                  <option value="MT">Montana</option>
+                  <option value="NE">Nebraska</option>
+                  <option value="NV">Nevada</option>
+                  <option value="NH">New Hampshire</option>
+                  <option value="NJ">New Jersey</option>
+                  <option value="NM">New Mexico</option>
+                  <option value="NY">New York</option>
+                  <option value="NC">North Carolina</option>
+                  <option value="ND">North Dakota</option>
+                  <option value="OH">Ohio</option>
+                  <option value="OK">Oklahoma</option>
+                  <option value="OR">Oregon</option>
+                  <option value="PA">Pennsylvania</option>
+                  <option value="RI">Rhode Island</option>
+                  <option value="SC">South Carolina</option>
+                  <option value="SD">South Dakota</option>
+                  <option value="TN">Tennessee</option>
+                  <option value="TX">Texas</option>
+                  <option value="UT">Utah</option>
+                  <option value="VT">Vermont</option>
+                  <option value="VA">Virginia</option>
+                  <option value="WA">Washington</option>
+                  <option value="WV">West Virginia</option>
+                  <option value="WI">Wisconsin</option>
+                  <option value="WY">Wyoming</option>
+                  <option value="DC">Washington D.C.</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="franchise-investment">Investment Capacity *</label>
+              <select id="franchise-investment" class="form-control" name="investmentCapacity" required>
+                <option value="">Select investment range</option>
+                <option>$100k - $250k</option>
+                <option>$250k - $500k</option>
+                <option>$500k - $1M</option>
+                <option>$1M+</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="franchise-experience">Restaurant Experience</label>
+              <select id="franchise-experience" class="form-control" name="restaurantExperience">
+                <option value="">Select experience level</option>
+                <option>No Experience</option>
+                <option>1-3 years</option>
+                <option>3-5 years</option>
+                <option>5+ years</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="franchise-message">Message</label>
+              <textarea id="franchise-message" class="form-control" name="message"
+                placeholder="Tell us why you want to join the Biryani Grill family..."></textarea>
+            </div>
+
+            <div class="flex flex-col items-stretch gap-[0.7rem]">
+              <button type="submit" class="btn-primary justify-center w-full">Submit Franchise
+                Inquiry</button>
+              <p class="text-center text-[#C7C7C7] text-[0.86rem]">We'll review your application and
+                get back to you within 48 hours</p>
+              <span class="form-success hidden text-[#F5C33B] text-[0.9rem] text-center">Thank you! We received your
+                franchise inquiry.</span>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <div id="location-modal" class="location-modal-backdrop" aria-hidden="true">
+        <div class="location-modal-card" role="dialog" aria-modal="true" aria-labelledby="location-modal-title">
+          <button class="location-modal-close" type="button" data-close
+            aria-label="Close menu location popup">×</button>
+          <h3 id="location-modal-title" class="location-modal-title">Select Your <em>Location</em></h3>
+          <p class="location-modal-subtitle">Choose a location to view the latest menu PDF.</p>
+          <div class="location-modal-actions">
+            <a href="https://biryanigrill.com/menus/Aldie.pdf" target="_blank" rel="noopener"
+              class="btn-outline">Aldie</a>
+            <a href="https://biryanigrill.com/menus/Ashburn.pdf" target="_blank" rel="noopener"
+              class="btn-outline">Ashburn</a>
+            <a href="https://biryanigrill.com/menus/Chantilly.pdf" target="_blank" rel="noopener"
+              class="btn-outline">Chantilly</a>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="js/main.js"></script>
 </body>
+
 </html>
-```

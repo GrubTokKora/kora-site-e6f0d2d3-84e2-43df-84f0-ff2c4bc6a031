@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://staging.kora-e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031.pages.dev/catering</loc><lastmod>2026-04-24</lastmod><priority>1.0</priority></url><url><loc>https://staging.kora-e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031.pages.dev</loc><lastmod>2026-04-24</lastmod><priority>0.8</priority></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://kora-e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031.pages.dev/</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://kora-e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031.pages.dev/careers.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kora-e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031.pages.dev/aldie.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kora-e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031.pages.dev/ashburn.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kora-e6f0d2d3-84e2-43df-84f0-ff2c4bc6a031.pages.dev/chantilly.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
