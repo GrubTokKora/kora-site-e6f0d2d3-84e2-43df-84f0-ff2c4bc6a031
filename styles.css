@@ -1790,3 +1790,37 @@ summary,
 label[for] {
   cursor: pointer !important;
 }
+
+/* ---- Kora public forms (status + reCAPTCHA) ---- */
+.form-status {
+  margin: 0.35rem 0 0;
+  min-height: 1.25rem;
+  display: none;
+  font-size: 0.9rem;
+}
+
+.form-status.is-visible {
+  display: block;
+}
+
+.form-status--neutral {
+  color: var(--white-muted);
+}
+
+.form-status--success {
+  color: #86efac;
+}
+
+.form-status--error {
+  color: #fca5a5;
+}
+
+.g-recaptcha {
+  transform-origin: left top;
+}
+
+@media (max-width: 420px) {
+  .g-recaptcha {
+    transform: scale(0.92);
+  }
+}

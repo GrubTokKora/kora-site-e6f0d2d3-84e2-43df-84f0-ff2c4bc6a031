@@ -514,7 +514,7 @@
             </p>
           </div>
 
-          <form data-demo
+          <form id="catering-form" data-form-type="catering_quote" method="post" novalidate
             class="reveal max-w-[760px] mx-auto bg-[#1A1C20] border border-[rgba(245,195,59,0.25)] rounded-xl px-4 pt-5 pb-[1.1rem]">
             <h3 class="font-display text-[2rem] text-center mb-[0.3rem] text-[#F5C33B]">
               Request a Quote</h3>
@@ -600,13 +600,16 @@
                 placeholder="Menu preferences, dietary restrictions, setup details..."></textarea>
             </div>
 
+            <div class="form-group flex justify-center">
+              <div class="g-recaptcha" data-sitekey=""></div>
+            </div>
+            <p class="form-status" role="status" aria-live="polite"></p>
+
             <div class="flex flex-col items-stretch gap-[0.7rem]">
               <button type="submit" class="btn-primary justify-center w-full">Request Catering
                 Quote</button>
               <p class="text-center text-[#C7C7C7] text-[0.86rem]">We'll send you a custom catering
                 quote within 24 hours</p>
-              <span class="form-success hidden text-[#F5C33B] text-[0.9rem] text-center">Thank you! Our team will
-                contact you shortly.</span>
             </div>
           </form>
         </div>
@@ -626,7 +629,7 @@
             </p>
           </div>
 
-          <form data-demo
+          <form id="franchise-form" data-form-type="franchise_inquiry" method="post" novalidate
             class="reveal max-w-[760px] mx-auto bg-[#1A1C20] border border-[rgba(245,195,59,0.25)] rounded-xl px-4 pt-5 pb-[1.1rem]">
             <h3 class="font-display text-[2rem] text-center mb-[0.3rem] text-[#F5C33B]">
               Franchise Inquiry</h3>
@@ -744,13 +747,16 @@
                 placeholder="Tell us why you want to join the Biryani Grill family..."></textarea>
             </div>
 
+            <div class="form-group flex justify-center">
+              <div class="g-recaptcha" data-sitekey=""></div>
+            </div>
+            <p class="form-status" role="status" aria-live="polite"></p>
+
             <div class="flex flex-col items-stretch gap-[0.7rem]">
               <button type="submit" class="btn-primary justify-center w-full">Submit Franchise
                 Inquiry</button>
               <p class="text-center text-[#C7C7C7] text-[0.86rem]">We'll review your application and
                 get back to you within 48 hours</p>
-              <span class="form-success hidden text-[#F5C33B] text-[0.9rem] text-center">Thank you! We received your
-                franchise inquiry.</span>
             </div>
           </form>
         </div>

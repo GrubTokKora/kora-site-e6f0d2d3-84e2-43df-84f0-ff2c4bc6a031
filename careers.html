@@ -155,7 +155,8 @@
           </div>
 
           <div class="reveal max-w-[760px] mt-12 mx-auto">
-            <form data-demo class="bg-[#1A1C20] border border-[rgba(245,195,59,0.25)] rounded-xl px-4 pt-5 pb-[1.1rem]">
+            <form id="careers-form" data-form-type="job_application" method="post" novalidate
+              class="bg-[#1A1C20] border border-[rgba(245,195,59,0.25)] rounded-xl px-4 pt-5 pb-[1.1rem]">
               <h3 class="font-display text-[2rem] text-center mb-[0.3rem] text-[#F5C33B]">
                 Apply Now</h3>
               <p class="text-center text-[#C7C7C7] text-[0.9rem] mb-4">Fill out the
@@ -211,11 +212,14 @@
                   formats: PDF, DOC, DOCX</p>
               </div>
 
+              <div class="form-group flex justify-center">
+                <div class="g-recaptcha" data-sitekey=""></div>
+              </div>
+              <p class="form-status" role="status" aria-live="polite"></p>
+
               <div class="flex flex-col items-stretch gap-[0.7rem]">
                 <button type="submit" class="btn-primary justify-center w-full">Submit
                   Application</button>
-                <span class="form-success hidden text-[#F5C33B] text-[0.9rem] text-center">Thanks! Your application
-                  has been received.</span>
               </div>
             </form>
           </div>
