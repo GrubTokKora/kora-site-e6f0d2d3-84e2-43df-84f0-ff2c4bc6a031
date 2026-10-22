@@ -1,0 +1,40 @@
+# Biryani Grill
+
+> Biryani Grill is an Indian restaurant located at 42010 Village Center Plaza #170, Stone Ridge, VA 20105, offering authentic Indian flavors paired with Virginia hospitality.
+
+## Services
+### Signature Biryanis
+- Mutton Biryani (Goat)
+- Chicken Dum Biryani
+- Paneer Biryani
+
+### Tandoor Specialties
+- Paneer Tikka
+- Fish Tikka
+- Hariyali Chicken
+
+### Curries & Specialties
+- Lababdar Paneer
+- Chicken Tikka Masala
+- Goat Curry
+
+### Signature
+- Mutton Biryani (Goat)
+- Chicken Dum Biryani
+
+## Location & Contact
+- Address: 42010 Village Center Plaza #170, Stone Ridge, VA 20105
+- Phone: (703) 570-4766
+
+## Hours
+- Monday: 11:30-14:30, 17:00-00:00
+- Tuesday: 11:30-14:30, 17:00-00:00
+- Wednesday: 11:30-14:30, 17:00-00:00
+- Thursday: 11:30-14:30, 17:00-00:00
+- Friday: 11:30-00:00
+- Saturday: 11:30-00:00
+- Sunday: 11:30-00:00
+
+## Social
+- [Instagram](https://www.instagram.com/biryanigrill_va/?igsh=MXY0OG0zMWxxcHZ1aA%3D%3D)
+- [Facebook](https://www.facebook.com/biryanigrillva)
