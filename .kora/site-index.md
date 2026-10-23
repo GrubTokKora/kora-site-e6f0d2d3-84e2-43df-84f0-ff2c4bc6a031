@@ -53,7 +53,7 @@ Files that are not pages. A line marked [content] holds words or data a visitor 
 change to the site's content can land there; the rest only make the site work or look right.
 - `robots.txt` — 104 bytes — too small to hold content
 - `sitemap.xml` — Search engine sitemap listing site URLs and last modification dates
-- `styles.css` — CSS stylesheet for the website layout, typography, colors, and styling
+- `src/input.css` — Tailwind source: brand theme tokens plus the site's own CSS for layout, typography, colors and styling (compiled to `assets/styles.css` at deploy)
 - `js/components.js` — Shared site header, footer, mobile drawer navigation, and contact details (phone numbers and locations) injected dynamically across pages: Aldie, Ashburn, Chantilly  [content]
 - `js/main.js` — site configuration, brand links, social media links, and generated site header and footer text and links: Home, Menu, Catering, About, Contact Us, Careers, Franchise, Order Now, Quick Links, Hours, Facebook, Instagram, WhatsApp  [content]
 
